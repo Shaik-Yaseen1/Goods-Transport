@@ -1,11 +1,11 @@
 import { redirect } from "next/navigation";
 import { getServerSession } from "next-auth";
 import Link from "next/link";
-import { authOptions } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
-import { formatINR } from "@/lib/fare";
-import AdminBookingsTable from "@/components/admin/AdminBookingsTable";
-import AdminOwnersPanel from "@/components/admin/AdminOwnersPanel";
+// import { authOptions } from "@/lib/auth";
+// import { prisma } from "@/lib/prisma";
+// import { formatINR } from "@/lib/fare";
+// import AdminBookingsTable from "@/components/admin/AdminBookingsTable";
+// import AdminOwnersPanel from "@/components/admin/AdminOwnersPanel";
 import AdminSignOut from "@/components/admin/AdminSignOut";
 
 export const dynamic = "force-dynamic";
